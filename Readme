@@ -1,0 +1,40 @@
+# Turtle Crossing Game
+
+This is a Python-based Turtle Crossing Game, where the player controls a turtle and helps it cross the road while avoiding cars. The game becomes progressively harder as the level increases.
+
+## Game Features
+- A turtle that can move up and down using arrow keys.
+- Randomly moving cars of different colors from left to right.
+- Levels that increase speed as the player safely crosses the road.
+- A scoreboard displayed at the top-right corner of the screen.
+- "Game Over" if the turtle collides with a car.
+
+## File Structure
+The project is split across multiple Python files for easier maintenance:
+1. **`main.py`**: The entry point of the game. Manages the screen, handles the game loop, and connects all components together.
+2. **`player.py`**: Handles the turtle player logic, including movement and resetting position.
+3. **`car_manager.py`**: Manages the cars, including their creation, movement, and speed adjustments.
+4. **`scoreboard.py`**: Displays and updates the game score, levels, and "Game Over" message.
+
+## Requirements
+- Python 3.x
+- `turtle` module (comes pre-installed with Python)
+
+## How to Play
+1. Clone or download the repository.
+2. Open the project in your preferred Python IDE (e.g., PyCharm or VS Code).
+3. Ensure all the files (`main.py`, `player.py`, `car_manager.py`, and `scoreboard.py`) are in the same directory.
+4. Run the `main.py` file to start the game.
+5. Use the **Up arrow key** to move the turtle forward and the **Down arrow key** to move backward.
+6. Avoid the cars and cross the road to increase your level.
+7. If the turtle collides with a car, the game ends.
+
+## Levels and Scoring
+- Each time the turtle successfully crosses the road, the level increases.
+- Cars move faster with each level, increasing the difficulty.
+
+## Screenshots
+
+_An example of the turtle crossing the screen and avoiding cars._
+## License
+This game is for educational purposes and does not include any external libraries beyond the default `turtle` module.
