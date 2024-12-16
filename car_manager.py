@@ -15,7 +15,7 @@ class CarManager:
         # Randomly create a car
         random_chance = random.randint(1, 6)  # Adjust frequency here
         if random_chance == 1:
-            new_car = Turtle("square")
+            new_car = Turtle("turtle")
             new_car.shapesize(stretch_wid=1, stretch_len=2)
             new_car.color(random.choice(COLORS))
             new_car.penup()

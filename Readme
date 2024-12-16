@@ -1,6 +1,8 @@
 # Turtle Crossing Game
 
-This is a Python-based Turtle Crossing Game, where the player controls a turtle and helps it cross the road while avoiding cars. The game becomes progressively harder as the level increases.
+This is a Python-based Turtle Crossing Game, where the player controls a turtle and helps
+it cross the road while avoiding cars. The game becomes progressively harder as the level
+increases.
 
 ## Game Features
 - A turtle that can move up and down using arrow keys.
